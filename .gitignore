@@ -1,8 +1,9 @@
-*.bak
 
 # Old / unused configs kept locally only
-hyprland.conf
 wip-hyprland.lua
-broken-hypridle.conf
-broken-hyprlock.conf
 env.conf
+
+# Only needed by the session that was started before the Lua migration.
+# Delete after logging out/in -- deleting it while that session runs makes
+# Hyprland regenerate a stub and reload it.
+hyprland.conf
