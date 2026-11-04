@@ -98,3 +98,11 @@ These also work on the lock screen.
 | Mute / Mic mute | Toggle |
 | Play, Pause | Play / pause |
 | Next / Previous | Skip tracks |
+
+## If the lock screen crashes
+
+`misc.allow_session_lock_restore` is on, so a crashed hyprlock can be replaced:
+
+1. Switch to a TTY with `Ctrl+Alt+F3` and log in.
+2. Run `hyprctl --instance 0 dispatch 'hl.dsp.exec_cmd("hyprlock")'`
+3. Switch back with `Ctrl+Alt+F1` (or `F2`) and unlock normally.
