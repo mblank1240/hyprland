@@ -39,8 +39,9 @@ hl.window_rule({
     immediate = true,
 })
 
--- Ignore maximize requests from apps (was commented out in the old config)
--- hl.window_rule({ name = "suppress-maximize", match = { class = ".*" }, suppress_event = "maximize" })
+-- Ignore maximize requests from apps. Kitty asks to be maximized on launch,
+-- which made it cover the whole workspace instead of tiling.
+hl.window_rule({ name = "suppress-maximize", match = { class = ".*" }, suppress_event = "maximize" })
 
 -- Fix some XWayland dragging issues (was commented out in the old config)
 -- hl.window_rule({
