@@ -6,6 +6,7 @@ local startup = {
     "swaync",       -- notifications (claims the D-Bus name before dunst can)
     "wal -R",       -- restore last pywal colorscheme
     "hypridle",
+    "hyprsunset",   -- evening warm/dim schedule (hyprsunset.conf); hypridle also uses it to dim on idle
     "hyprpaper",
     "wayvnc",
 

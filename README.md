@@ -5,8 +5,10 @@ My Hyprland config, written in the Lua config format (Hyprland 0.56+) and split 
 ```
 hypr/
 ├── hyprland.lua          # entry point, loads the modules in order
-├── hypridle.conf         # lock at ~13.5 min, screens off at 20 min
+├── hypridle.conf         # dim at 5 min, lock at ~13.5 min, screens off at 20 min
+├── hyprsunset.conf       # warm + 90% gamma from 18:00 to 07:00
 ├── hyprpaper.conf
+├── scripts/idle-restore.sh  # hypridle resume: restores the scheduled gamma
 └── hyprconfig/
     ├── vars.lua          # mainMod, terminal, fileManager, menu
     ├── monitors.lua      # DP-5 / DP-6, VRR (fullscreen only)
