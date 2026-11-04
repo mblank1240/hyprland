@@ -1,1 +1,8 @@
 *.bak
+
+# Old / unused configs kept locally only
+hyprland.conf
+wip-hyprland.lua
+broken-hypridle.conf
+broken-hyprlock.conf
+env.conf
