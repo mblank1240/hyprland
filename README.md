@@ -9,6 +9,8 @@ hypr/
 ├── hyprsunset.conf       # warm + 90% gamma from 18:00 to 07:00
 ├── hyprpaper.conf
 ├── scripts/idle-restore.sh  # hypridle resume: restores the scheduled gamma
+├── scripts/dim-toggle.sh    # waybar button: start/stop hyprsunset (all dimming on/off)
+├── waybar/               # waybar config; ~/.config/waybar is a symlink to this
 └── hyprconfig/
     ├── vars.lua          # mainMod, terminal, fileManager, menu
     ├── monitors.lua      # DP-5 / DP-6, VRR (fullscreen only)
